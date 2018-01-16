@@ -2,8 +2,158 @@
 
 /* --- YOUR CODE STARTS HERE --- */
 
+#frame {
+  display: block;
+  margin: auto;
+  width: 357px;
+  height: 620px;
+  border: 1px solid #ccc;
+}
 
+.container {
+  position: absolute;
+  display: block;
+  width: 357px;
+  height: 620px;
+  overflow: hidden;
+}
 
+.content{
+  position: absolute;
+  left: 0;
+  top: 42px;
+  overflow-y: scroll;
+  padding-right: 17px;
+}
+
+.titleheader {
+  font-family: "Lato";
+  font-weight: 800;
+  font-size: 17px;
+  margin: 10px 0 10px 0;
+}
+
+#row_1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 357px;
+  height: 42px;
+  background-color: #fafafa;
+  border-bottom: 2px solid #ededed;
+}
+
+#row_2 {
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #fafafa;
+}
+
+#row_3 {
+  /* width: : 359px; */
+  height: 358px;
+  background-color: green;
+  border-bottom: 1px solid #fafafa;
+}
+
+#row_4 {
+  height: 124px;
+  background-color: #fff;
+}
+
+#row_5 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 359px;
+  height: 42px;
+  background-color: #fafafa;
+}
+
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.namelocation {
+  text-align: left;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.namelocation strong {
+  font-size: 13px;
+}
+
+.i2, .i5 {
+  height: 100%;
+}
+
+.i4 {
+  height: 44px;
+}
+
+.i4b {
+  margin: 0 10px;
+}
+
+.row_2_child {
+  margin-left: 10px;
+}
+
+.row_2_ellipses {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.row_4_child {
+  font-size: 22px;
+  width: 40px;
+}
+
+.row_5_child {
+  font-size: 22px;
+  width: 20%;
+  color: #666;
+}
+
+.backbutton {
+  width: 40px;
+  font-size: 32px;
+}
+
+.reloadbutton {
+  width: 40px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.imgholder{
+  display: inline-block;
+  border: 1px solid green;
+  align-self: center;
+}
+
+.fa-likes {
+  color: #444;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.fa-post {
+  color: #444;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.flex_spacer {
+  flex-grow: 1;
+}
 
 
 
